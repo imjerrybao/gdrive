@@ -15,6 +15,13 @@ If you want to compile from source you need the go toolchain: http://golang.org/
 ## Installation
 - Save the 'drive' binary to a location in your PATH (i.e. `/usr/local/bin/`)
 - Or compile it yourself `go build drive.go`
+````
+go get github.com/prasmussen/gdrive/cli
+go get google.golang.org/api/tasks/v1
+go get google.golang.org/api/moderator/v1
+go get code.google.com/p/goauth2/oauth (yum install -y mercurial meld)
+go get github.com/voxelbrain/goptions
+````
 
 ### Downloads
 - [drive-freebsd-386 v1.9.0](https://drive.google.com/uc?id=0B3X9GlR6EmbnNkdVSU1oNUoyQ0U)
