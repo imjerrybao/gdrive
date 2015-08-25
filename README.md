@@ -20,6 +20,7 @@ go get github.com/prasmussen/gdrive/cli
 go get google.golang.org/api/tasks/v1
 go get google.golang.org/api/moderator/v1
 go get code.google.com/p/goauth2/oauth (yum install -y mercurial meld)
+go get github.com/prasmussen/google-api-go-client/googleapi
 go get github.com/voxelbrain/goptions
 ````
 
